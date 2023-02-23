@@ -1,11 +1,12 @@
 import './App.css';
+import HelloWord from './components/HelloWorld';
+
 
 function App() {
   return (
     <div className="App">
 
-      <h1>Olá IberiaBrands</h1>
-      <p>Meu primeiro App</p>
+      <HelloWord />
 
     </div>
   );
