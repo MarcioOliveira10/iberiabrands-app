@@ -8,14 +8,20 @@ function Navbar() {
                 <Link to="/">Home</Link>
             </li>
             <li className={styles.item}>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/Charges">Cobranças</Link>
             </li>
             <li className={styles.item}>
-                <Link to="/About">About</Link>
+                <Link to="/Sales">Vendas</Link>
             </li>
-
-
-
+            <li className={styles.item}>
+                <Link to="/Users">Utilizadores</Link>
+            </li>
+            <li className={styles.item}>
+                <Link to="/Represented">Representadas</Link>
+            </li>
+            <li className={styles.item}>
+                <Link to="/Customers">Clientes</Link>
+            </li>
         </ul>
     )
 }
