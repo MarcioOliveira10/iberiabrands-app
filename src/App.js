@@ -1,11 +1,11 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Charges from './pages/Charges';
-import Sales from './pages/Sales'
-import Users from './pages/Users';
-import Represented from './pages/Represented';
-import Customers from './pages/Customers';
+import Home from './components/pages/Home'
+import Charges from './components/pages/Charges';
+import Sales from './components/pages/Sales'
+import Users from './components/pages/Users';
+import Represented from './components/pages/Represented';
+import Customers from './components/pages/Customers';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Container from './components/layout/Container';

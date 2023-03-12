@@ -6,10 +6,27 @@
 }
 
 .social_list li {
-    margin: 0 2em;
+    margin: 0 1em;
+}
+
+.social_list li:hover {
+    color: #FFBB33;
+
 }
 
 .social_list svg {
-    font-size: 2em;
+    font-size: 1em;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.copy_right {
+    margin-top: 0.5em;
+    color: #FFBB33;
 }

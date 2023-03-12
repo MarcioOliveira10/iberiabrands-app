@@ -1,0 +1,14 @@
+.sales_container {
+    width: 350px;
+    margin: 0 initial;
+    padding: 2em;
+}
+
+.sales_container h1 {
+    font-size: 30px;
+    margin-bottom: 0.1em;
+}
+
+.sales_container p {
+    color: #7b7b7b;
+}
